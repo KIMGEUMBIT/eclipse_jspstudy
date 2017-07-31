@@ -8,12 +8,12 @@
 </head>
 <body>
 <%
-
 //자바코드를 사용할 수 있는 영역(Scriptlet) -> 지역변수선언, 제어문
 	String str = "테스트";
 	System.out.println("str=>"+str); //디버깅용
 	out.println("<h1>"+"str=>"+str+"</h1>"); // 웹
 %>
+<<<<<<< HEAD
 <hr>
 str값 출력 = <%=str%>
 </body>
